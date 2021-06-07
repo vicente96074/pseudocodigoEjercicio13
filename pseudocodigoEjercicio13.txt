@@ -1,0 +1,39 @@
+Inicio pseudocodigoEjercicio13
+
+	Variable numero1
+	Variable numero2
+	Variable suma
+	Variable division
+	Variable opcion
+	Variable salir
+	
+	hacer
+		Escribir "1. Sumar 2 numeros."
+		Escribir "2. Divir 2 numeros."
+		Escribir "3. Salir."
+		Leer opcion
+		
+		Segun(opcion) hacer
+			Caso 1
+				Escribir "Ingrese un numero: "
+				Leer numero1
+				Escribir "Ingrese otro numero: "
+				Leer numero2
+				
+				suma = numero1 + numero2
+				Escribir "La suma es: " + suma
+			Caso 2
+				Escribir "Ingrese un numero: "
+				Leer numero1
+				Escribir "Ingrese otro numero: "
+				Leer numero2
+				
+				division = numero1/numero2
+				Escribir "La division es: " + division
+			Caso 3
+				salir = verdadero
+		FinSegun
+		
+	Repetir hasta(salir==falso)
+	
+Fin
